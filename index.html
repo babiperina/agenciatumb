@@ -15,12 +15,22 @@
         .custom-text {
             color: #2D2D2D;
         }
+        @media (max-width: 768px) {
+            .responsive-padding {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .responsive-margin {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
     </style>
 </head>
 <body class="font-sans antialiased text-gray-800">
     <!-- Header -->
     <header class="text-black top-0 left-0 w-full z-50">
-        <div class="flex justify-between items-center px-12 py-4" style="margin-left: 200px; margin-right: 200px;">
+        <div class="flex justify-between items-center px-12 py-4 responsive-padding responsive-margin">
             <div class="flex items-center">
                 <img src="logo.png" alt="Logo" class="h-12 w-12">
                 <h1 class="ml-4 text-2xl">Nós somos a <span class="font-bold custom-color">Tumb</span></h1>
@@ -29,7 +39,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="pt-10 px-12 py-8" style="margin-left: 200px; margin-right: 200px;">
+    <main class="pt-10 px-12 py-8 responsive-padding responsive-margin">
         <!-- Sessão de Serviços -->
         <section id="services" class="mb-12">
             <h2 class="text-2xl font-bold mb-6 custom-color">nossos serviços</h2>
@@ -76,24 +86,9 @@
                 </br>
                     Aqui, <span class="font-bold">cada cliente tem sua própria narrativa</span>. Através, portanto, de uma estratégia personalizada, escreveremos juntos o próximo capítulo da sua história!</p>
             </div>
-            <!-- <div class="w-full flex justify-end">
-                <div class="relative overflow-hidden">
-                    <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
-                        <div class="w-full flex-shrink-0">
-                            <img src="image1.png" alt="Imagem 1" class="w-auto h-full object-contain">
-                        </div>
-                        <div class="w-full flex-shrink-0">
-                            <img src="image2.png" alt="Imagem 2" class="w-auto h-full object-contain">
-                        </div>
-                        <div class="w-full flex-shrink-0">
-                            <img src="image3.png" alt="Imagem 3" class="w-auto h-full object-contain">
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="w-full flex justify-center mt-10">
                 <!-- Imagens Dispostas Horizontalmente -->
-                <div class="flex space-x-10">
+                <div class="flex space-x-10 overflow-x-auto">
                     <img src="image1.png" alt="Imagem 1" class="max-w-xs h-auto object-contain">
                     <img src="image2.png" alt="Imagem 2" class="max-w-xs h-auto object-contain">
                     <img src="image3.png" alt="Imagem 3" class="max-w-xs h-auto object-contain">
@@ -104,7 +99,7 @@
 
     <!-- Footer -->
     <footer class="custom-bg custom-text bottom-0 left-0 w-full z-50">
-        <div class="flex justify-between items-center px-12 py-4" style="margin-left: 200px; margin-right: 200px;">
+        <div class="flex justify-between items-center px-12 py-4 responsive-padding responsive-margin">
             <div class="flex items-center">
                 <a href="https://instagram.com" target="_blank" class="flex items-center">
                     <img src="instagram-icon.png" alt="Instagram" class="h-6 w-6">
