@@ -15,6 +15,23 @@
         .custom-text {
             color: #2D2D2D;
         }
+        .card {
+            border: 2px solid #EE743F; /* Define a cor e a espessura da borda */
+            border-radius: 0.5rem; /* Define o arredondamento dos cantos */
+        }
+
+        .card-content {
+            background-color: #2D2D2D; /* Define a cor de fundo da parte inferior do card */
+        }
+
+        .card-icon {
+            color: #EE743F; /* Define a cor do ícone */
+        }
+
+        .card-button {
+            background-color: #EE743F; /* Define a cor de fundo do botão */
+            color: #FFFFFF; /* Define a cor do texto do botão */
+        }
         @media (max-width: 768px) {
             .responsive-padding {
                 padding-left: 1rem;
@@ -46,30 +63,103 @@
             <div class="overflow-x-auto">
                 <div class="flex space-x-4 py-4">
                     <!-- Card 1 -->
-                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
-                        <h3 class="text-xl font-semibold mb-2">Serviço 1</h3>
-                        <p class="text-gray-600">Descrição breve do serviço 1.</p>
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Gestão de Mídias Sociais</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
                     </div>
+
                     <!-- Card 2 -->
-                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
-                        <h3 class="text-xl font-semibold mb-2">Serviço 2</h3>
-                        <p class="text-gray-600">Descrição breve do serviço 2.</p>
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Captação de Conteúdos Visuais</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
                     </div>
+
                     <!-- Card 3 -->
-                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
-                        <h3 class="text-xl font-semibold mb-2">Serviço 3</h3>
-                        <p class="text-gray-600">Descrição breve do serviço 3.</p>
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Produção de Textos Publicitários</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
                     </div>
+
                     <!-- Card 4 -->
-                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
-                        <h3 class="text-xl font-semibold mb-2">Serviço 4</h3>
-                        <p class="text-gray-600">Descrição breve do serviço 4.</p>
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Criação de Ferramentas Online</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
                     </div>
+
                     <!-- Card 5 -->
-                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
-                        <h3 class="text-xl font-semibold mb-2">Serviço 5</h3>
-                        <p class="text-gray-600">Descrição breve do serviço 5.</p>
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Configuração do Google Meu Negócio</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
                     </div>
+
+                    <!-- Card 5 -->
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Criação de Páginas de Conversão</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="card bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <div class="h-1/2 bg-gray-800 rounded-t-lg flex items-center p-4">
+                            <svg class="w-6 h-6 card-icon mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3l-3 3M12 8V4m0 4H8M12 4h4m0 4l3 3m-3-3v4m0-4h4M12 4v4"></path>
+                            </svg>
+                            <span class="text-white">Criação de Websites</span>
+                        </div>
+                        <div class="card-content h-1/2 rounded-b-lg p-4 flex flex-col justify-between">
+                            <p class="text-gray-300 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="card-button py-2 px-4 rounded-lg text-center">Saiba Mais</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
