@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Marketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-color {
+            color: #D79FC0;
+        }
+        .custom-bg {
+            background-color: #D79FC0;
+        }
+        .custom-text {
+            color: #2D2D2D;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="text-black top-0 left-0 w-full z-50">
+        <div class="flex justify-between items-center px-12 py-4" style="margin-left: 200px; margin-right: 200px;">
+            <div class="flex items-center">
+                <img src="logo.png" alt="Logo" class="h-12 w-12">
+                <h1 class="ml-4 text-2xl">Nós somos a <span class="font-bold custom-color">Tumb</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-10 px-12 py-8" style="margin-left: 200px; margin-right: 200px;">
+        <!-- Sessão de Serviços -->
+        <section id="services" class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 custom-color">nossos serviços</h2>
+            <div class="overflow-x-auto">
+                <div class="flex space-x-4 py-4">
+                    <!-- Card 1 -->
+                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <h3 class="text-xl font-semibold mb-2">Serviço 1</h3>
+                        <p class="text-gray-600">Descrição breve do serviço 1.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <h3 class="text-xl font-semibold mb-2">Serviço 2</h3>
+                        <p class="text-gray-600">Descrição breve do serviço 2.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <h3 class="text-xl font-semibold mb-2">Serviço 3</h3>
+                        <p class="text-gray-600">Descrição breve do serviço 3.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <h3 class="text-xl font-semibold mb-2">Serviço 4</h3>
+                        <p class="text-gray-600">Descrição breve do serviço 4.</p>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="bg-white shadow-md rounded-lg w-64 h-72 p-4 flex-shrink-0">
+                        <h3 class="text-xl font-semibold mb-2">Serviço 5</h3>
+                        <p class="text-gray-600">Descrição breve do serviço 5.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sessão Sobre Nós -->
+        <section id="about-us" class="mb-12 flex flex-col">
+            <div class="w-full">
+                <h2 class="text-2xl font-bold mb-4 custom-color">sobre</h2>
+                <p class="text-gray-600"><span class="font-bold">Olá</span>, nós somos a <span class="font-bold">Tumb</span>.</br>
+                </br>
+                    Somos um <span class="font-bold">trio de mulheres nordestinas</span> apaixonadas por marketing e que vão ajudar você a fazer o seu negócio crescer. Estamos aqui para aplicar nosso conhecimento e habilidades para a <span class="font-bold">melhoria contínua do seu negócio</span>.</br>
+                </br>
+                    Desde a organização visual à harmonia estética, trabalhamos para que o seu perfil transmita sempre a mensagem certa.</br>
+                </br>
+                    Aqui, <span class="font-bold">cada cliente tem sua própria narrativa</span>. Através, portanto, de uma estratégia personalizada, escreveremos juntos o próximo capítulo da sua história!</p>
+            </div>
+            <!-- <div class="w-full flex justify-end">
+                <div class="relative overflow-hidden">
+                    <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+                        <div class="w-full flex-shrink-0">
+                            <img src="image1.png" alt="Imagem 1" class="w-auto h-full object-contain">
+                        </div>
+                        <div class="w-full flex-shrink-0">
+                            <img src="image2.png" alt="Imagem 2" class="w-auto h-full object-contain">
+                        </div>
+                        <div class="w-full flex-shrink-0">
+                            <img src="image3.png" alt="Imagem 3" class="w-auto h-full object-contain">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="w-full flex justify-center mt-10">
+                <!-- Imagens Dispostas Horizontalmente -->
+                <div class="flex space-x-10">
+                    <img src="image1.png" alt="Imagem 1" class="max-w-xs h-auto object-contain">
+                    <img src="image2.png" alt="Imagem 2" class="max-w-xs h-auto object-contain">
+                    <img src="image3.png" alt="Imagem 3" class="max-w-xs h-auto object-contain">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="custom-bg custom-text bottom-0 left-0 w-full z-50">
+        <div class="flex justify-between items-center px-12 py-4" style="margin-left: 200px; margin-right: 200px;">
+            <div class="flex items-center">
+                <a href="https://instagram.com" target="_blank" class="flex items-center">
+                    <img src="instagram-icon.png" alt="Instagram" class="h-6 w-6">
+                    <span class="ml-2">agenciatumb</span>
+                </a>
+            </div>
+            <div>
+                <span>agenciatumb@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let currentIndex = 0;
+    
+        function showNextImage() {
+            const carousel = document.getElementById('carousel');
+            const totalImages = carousel.children.length;
+    
+            currentIndex = (currentIndex + 1) % totalImages;
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+    
+        setInterval(showNextImage, 3000); // Troca de imagem a cada 3 segundos
+    </script>
+</body>
+</html>
