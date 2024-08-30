@@ -5,69 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência Tumb</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <style>
-        .custom-color {
-            color: #D79FC0;
-        }
-        .custom-bg {
-            background-color: #D79FC0;
-        }
-        .custom-text {
-            color: #2D2D2D;
-        }
-        .card {
-            border: 2px solid #EE743F; /* Define a cor e a espessura da borda */
-            border-radius: 0.5rem; /* Define o arredondamento dos cantos */
+        .text-custom-color {
+            color: #EE743F; /* Ajuste a cor conforme necessário */
         }
 
-        .card-content {
-            background-color: #2D2D2D; /* Define a cor de fundo da parte inferior do card */
+        .text-custom-color:hover {
+            color: #D79FC0; /* Cor ao passar o mouse (opcional) */
         }
-
-        .card-icon {
-            color: #EE743F; /* Define a cor do ícone */
-        }
-
-        .card-button {
-            background-color: #EE743F; /* Define a cor de fundo do botão */
-            color: #FFFFFF; /* Define a cor do texto do botão */
-        }
-        @media (max-width: 768px) {
-            .responsive-padding {
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-            .responsive-margin {
-                margin-left: 1rem;
-                margin-right: 1rem;
-            }
-        }
-
-        .contact-section {
-            margin: 20px 0;
-        }
-
-        .contact-button {
-            display: block;
-            width: 100%;
-            padding: 15px;
-            background-color: #25D366; /* Cor do botão do WhatsApp */
-            color: white; /* Cor do texto */                 
-            border: none; /* Sem borda */
-            border-radius: 5px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        .contact-button:hover {
-            background-color: #128C7E; /* Cor de fundo ao passar o mouse */
-        }
-
-
     </style>
 </head>
 <body class="font-sans antialiased text-gray-800">
@@ -75,8 +23,12 @@
     <header class="text-black top-0 left-0 w-full z-50">
         <div class="flex justify-between items-center px-12 py-4 responsive-padding responsive-margin">
             <div class="flex items-center">
-                <img src="logo.png" alt="Logo" class="h-12 w-12">
+                <img src="./images/logo.png" alt="Logo" class="h-12 w-12">
                 <h1 class="ml-4 text-2xl">Nós somos a <span class="font-bold custom-color">Tumb</span></h1>
+            </div>
+            <!-- Link para a página de clientes -->
+            <div class="flex items-center">
+                <a href="./paginas/clientes.html" class="text-custom-color hover:underline text-lg">Confira os nossos clientes</a>
             </div>
         </div>
     </header>
@@ -212,9 +164,9 @@
             <div class="w-full flex justify-center mt-10">
                 <!-- Imagens Dispostas Horizontalmente -->
                 <div class="flex space-x-10 overflow-x-auto">
-                    <img src="image2.png" alt="Imagem 1" class="max-w-xs h-auto object-contain">
-                    <img src="image1.png" alt="Imagem 2" class="max-w-xs h-auto object-contain">
-                    <img src="image3.png" alt="Imagem 3" class="max-w-xs h-auto object-contain">
+                    <img src="./images/babi.png" alt="Imagem 1" class="max-w-xs h-auto object-contain">
+                    <img src="./images/ceci.png" alt="Imagem 2" class="max-w-xs h-auto object-contain">
+                    <img src="./images/iv.png" alt="Imagem 3" class="max-w-xs h-auto object-contain">
                 </div>
             </div>
         </section>
@@ -225,7 +177,7 @@
         <div class="flex justify-between items-center px-12 py-4 responsive-padding responsive-margin">
             <div class="flex items-center">
                 <a href="https://instagram.com" target="_blank" class="flex items-center">
-                    <img src="instagram-icon.png" alt="Instagram" class="h-6 w-6">
+                    <img src="./images/instagram-icon.png" alt="Instagram" class="h-6 w-6">
                     <span class="ml-2">agenciatumb</span>
                 </a>
             </div>
