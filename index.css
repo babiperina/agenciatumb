@@ -1,3 +1,28 @@
+.bg-gray-tumb {
+    background-color: #2C2C2C;
+}
+.bg-pink-tumb {
+    background-color: #D79FC0;
+}
+.bg-orange-tumb {
+    background-color: #EE743F;
+}
+.bg-creme-tumb {
+    background-color: #E1CE79;
+}
+.txt-gray-tumb {
+    color: #2C2C2C;
+}
+.txt-pink-tumb {
+    color: #D79FC0;
+}
+.txt-orange-tumb {
+    color: #EE743F;
+}
+.txt-creme-tumb {
+    color: #E1CE79;
+}
+
 .custom-color {
     color: #D79FC0;
 }
@@ -13,7 +38,7 @@
 }
 
 .card-content {
-    background-color: #2D2D2D; /* Define a cor de fundo da parte inferior do card */
+    background-color: #2C2C2C; /* Define a cor de fundo da parte inferior do card */
 }
 
 .card-icon {
